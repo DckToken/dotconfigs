@@ -1,8 +1,3 @@
-#########################
-##      kopri's        ##
-##      .zshrc         ##
-######################### 
-
 export SHELL='/bin/zsh'
 export EDITOR='vim'
 export VIEW='lynx'
@@ -43,17 +38,3 @@ done
 
 # Functions
 fpath=( $HOME/etc/zsh/functions "${fpath[@]}" )
-
-
-# Binds
-# Alt+x to insert sudo
-insert_sudo () { zle beginning-of-line; zle -U "sudo " }
-zle -N insert-sudo insert_sudo
-bindkey "^X" insert-sudo
-bindkey '^U' backward-kill-line
-bindkey '^A' beginning-of-line
-bindkey '^D' end-of-line
-bindkey -a 'gg' beginning-of-buffer-or-history
-
-bindkey "^["    vi-cmd-mode
-bindkey -M vicmd 'u' undo
