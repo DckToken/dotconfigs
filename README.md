@@ -3,6 +3,8 @@
 ##Currently aviable configs:
 - .vimrc (into ~ folder)
 - .tmux.conf (into ~ folder)
+- .zshrc (into ~ folder)
+- /etc/zsh/* (into ~/etc/zsh)
  
 ##Not uploaded configs:
 - rTorrent
