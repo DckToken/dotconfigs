@@ -31,6 +31,7 @@ alias :q!='kill -9 $$'
 alias :q='exit'
 alias flux="redshift -l 43.302311:-3.033944"
 alias rm="rm -v"
+alias mv="mv -v"
 alias szsh='source /home/kopri/.zshrc'
 alias pstree++='~/scripts/pstree_color -pl'
 alias serve='python -m SimpleHTTPServer 8080'
